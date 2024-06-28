@@ -25,7 +25,7 @@ SECRET_KEY = 'bm)ceiv@(rc_@s9=!vrs-@20f-=%$q+zragcnt+l68)-eb(mh1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mysite.com']
+ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1']
 
 
 
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles', 
     'social_django',
     'django_extensions',
+    'images.apps.ImagesConfig',
 ]
 
 MIDDLEWARE = [
